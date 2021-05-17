@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 1em 20px 1em;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Cities Style*/
+#API_URL{
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: -15px 0 30px 0;
+}
+
+#t_CityList{
+  margin-left: -450px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#field_CityList{
+  border:  4px dashed #ffd240;
+  margin: 0 70px 70px;
+}
+
+#field_Cities{
+  border:  4px dashed #e462ae;
+  height: 70px;
+  margin: 0 70px;
+}
+
+#Cities{
+  margin-left: 500px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#id_CityList{
+  text-align: left;
+}
+
+#id_CityList li{
+  font-size: 20px;
+  display: inline-block;
+  margin: 0 20px 15px 20px;
+  border-bottom: 3px solid #b0b0b1;
+}
